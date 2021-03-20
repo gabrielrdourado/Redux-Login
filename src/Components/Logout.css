@@ -1,0 +1,47 @@
+.user__interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.user__area {
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user__area h1{
+    text-align: center;
+    margin-bottom: 14px;
+    color: #110e35;
+    font-size: 2.1rem;
+}
+
+.user__area h1 .user__name {
+    color: #2bd2c7;
+}
+
+.user__area .Logout__btn {
+    width: max-content;
+    background: #110e35;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+.user__area .Logout__btn:hover {
+    box-shadow: 0px 0px 3px 1px #110e35;
+    outline-width: 0;
+    cursor: pointer;
+    background: #078177;
+}

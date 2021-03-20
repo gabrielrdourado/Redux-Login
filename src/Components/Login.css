@@ -1,0 +1,69 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Login__Form {
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 9px 2px #110e35;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border: 10px solid #48d5da;
+    background: #48d5da;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login__Form h1{
+    text-align: center;
+    margin-bottom: 14px;
+    color: #110e35;
+    font-size: 2.1rem;
+}
+
+.Login__Form input{
+    background: none;    
+    margin-bottom: 10px;
+    border: 1px solid #110e35;
+    border-radius: 10px;
+    line-height: 20px;
+    padding: 10px;
+    color: #110e35;
+    font-weight: 700;    
+    text-align: center;
+}
+
+.Login__Form input:focus{
+    box-shadow: 0px 0px 9px 1px #110e35;
+    outline-width: 0;
+}
+
+.Login__Form input::placeholder{
+    color: #22276e;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Login__Form .Login__btn {
+    width: max-content;
+    background: #110e35;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+.Login__Form .Login__btn:hover {
+    box-shadow: 0px 0px 3px 1px #110e35;
+    outline-width: 0;
+    cursor: pointer;
+    background: #463e94;
+}
